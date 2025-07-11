@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop-o-rama</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="shop.html">Shop</a></li>
+             <li><a  href="blog.html">Blog</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a class="active" href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+
+   </section>
+   <section id="cart-elements">
+   <section>
+
+   </section>
+
+   <section id="page-header" class="cart-header">
+    <h2>#Cart</h2>
+    <p>LEAVE A MESSAGE ,We love to hear from you!</p>
+   </section>
+
+   <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zxvuvcnc.json"
+                        trigger="hover"
+                        style="width:20px;height:20px">
+                    </lord-icon></td>
+                    <td><img src="img/m1.jpg" alt=""></td>
+                    <td>Puma White Hoodie</td>
+                    <td>₹1,299</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1,299</td>
+            </tr>
+            <tr>
+                <td><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zxvuvcnc.json"
+                        trigger="hover"
+                        style="width:20px;height:20px">
+                    </lord-icon></td>
+                    <td><img src="img/m2.jpg" alt=""></td>
+                    <td>Puma Porsche Edition Hoodie</td>
+                    <td>₹1,499</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1,499</td>
+            </tr>
+            <tr>
+                <td><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zxvuvcnc.json"
+                        trigger="hover"
+                        style="width:20px;height:20px">
+                    </lord-icon></td>
+                    <td><img src="img/m3.jpg" alt=""></td>
+                    <td>Puma Porsche Edition Hoodie</td>
+                    <td>₹1,499</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1,499</td>
+            </tr>
+            <tr>
+                <td><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zxvuvcnc.json"
+                        trigger="hover"
+                        style="width:20px;height:20px">
+                    </lord-icon></td>
+                    <td><img src="img/m4.jpg" alt=""></td>
+                    <td>Puma Women's Hoodie</td>
+                    <td>₹2,199</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹2,199</td>
+            </tr>
+            <tr>
+                <td><script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zxvuvcnc.json"
+                        trigger="hover"
+                        style="width:20px;height:20px">
+                    </lord-icon></td>
+                    <td><img src="img/m5.jpg" alt=""></td>
+                    <td>Puma Women's Hooded Neck Sweatshirt</td>
+                    <td>₹1,439</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1,439</td>
+            </tr>
+            
+
+        </tbody>
+    </table>
+
+   </section>
+
+   <section id="cart-add" class="section-p1">
+    <div  id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>₹7935</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+             <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>₹7935</strong></td>
+            </tr>
+        </table>
+        <button class="normal" onclick="window.location.href='finalpage.html'">Proceed to Checkout</button>
+    </div>
+   </section>
+>
+   <footer class="section-p1">
+    <div class="col">
+        <img src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> shop-o-rama ,mini project,new horizon</p>
+        <p><strong>Phone:</strong> +91 916774**14</p>
+        <p><strong>Hours:</strong> 10:00am - 9:00pm, Mon - Sat</p>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/as.png"alt="">
+                <img src="img/gs.png"alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay.jpg" alt="">
+        </div>
+   </footer>
+    <script.src="script.js"></script>
+</body>
+</html>
